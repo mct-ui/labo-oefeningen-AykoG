@@ -34,7 +34,7 @@ html {
     font-size: 18px;
     line-height: 32px;
     font-weight: 200;
-    font-family: Helvetica, arial, sans-serif;
+    font-family: Clear Sans, Helvetica, arial, sans-serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -534,12 +534,16 @@ a:focus {
 .c-button {
     display: inline-block;
     line-height: 24px;
-    padding: 25px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 3px;
-    background: linear-gradient(to right, #0A257D, blue);
+    background: linear-gradient(to right, #023aa7, #0553fa);
+    box-shadow: 0 0 0 1px #2057b8;
+    color: white;
 }
 
 .c-button--nav {
